@@ -13,7 +13,7 @@ class ApplicationController {
 
     @RequestMapping("/")
     public String home() {
-        return "Welcome to PetClinic, Meow.";
+        return "Welcome to PetClinic, Meow!!";
     }
 
     private static final Logger logger = LoggerFactory.getLogger(ApplicationController.class);
